@@ -1,7 +1,7 @@
 package Polls;
 
 public class PoollStatistics {
-        public String[] statistics(){
+        public String[] statistics(){ // end_arrays 에 질문, 번호 선택 함수
         String[] end_arrays = new String[4];
         PoollInitailArrays poollInitailArrays = new PoollInitailArrays();
         String[] arrays = poollInitailArrays.arrays();

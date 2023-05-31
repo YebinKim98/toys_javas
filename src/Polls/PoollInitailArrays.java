@@ -1,7 +1,7 @@
 package Polls;
 
 public class PoollInitailArrays {
-    public String[] arrays() {
+    public String[] arrays() { // 질문 배열 생성
         String[] polls = {
                 "1. 교수는 수업 전 강의 목표를 명확히 제시하였습니까?",
                 "(1)전혀 아니다 (2)아니다 (3)그렇다 (4)매우그렇다",
