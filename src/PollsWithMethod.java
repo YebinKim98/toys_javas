@@ -1,5 +1,4 @@
 import Polls.PollsScanners;
-import Polls.PoollInitailArrays;
 import Polls.PoollStatistics;
 
 
