@@ -1,7 +1,7 @@
 package Polls;
 
 public class PoollInitailArrays {
-    public String[] PoollInitailArrays() {
+    public String[] arrays() {
         String[] polls = {
                 "1. 교수는 수업 전 강의 목표를 명확히 제시하였습니까?",
                 "(1)전혀 아니다 (2)아니다 (3)그렇다 (4)매우그렇다",
@@ -13,5 +13,9 @@ public class PoollInitailArrays {
                 "(1)전혀 아니다 (2)아니다 (3)그렇다 (4)매우그렇다"
         }; // 질문,보기 배열
         return polls;
+    }
+    public int[] sum() {
+        int[] all_sum = new int[4];
+        return all_sum;
     }
 }

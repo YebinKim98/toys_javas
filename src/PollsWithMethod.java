@@ -1,13 +1,13 @@
 import Polls.PollsScanners;
 import Polls.PoollInitailArrays;
+import Polls.PoollStatistics;
 
 
 public class PollsWithMethod {
     public static void main(String[] args) {
-        PoollInitailArrays poollInitailArrays = new PoollInitailArrays();
+        PoollStatistics poollStatistics = new PoollStatistics();
+        poollStatistics.statistics();
         PollsScanners pollsScanners = new PollsScanners();
-        for (int first= 0; first<po)
-        
-        
+        pollsScanners.scanners();
     }
 }
