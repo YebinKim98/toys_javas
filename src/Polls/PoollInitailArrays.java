@@ -12,6 +12,11 @@ public class PoollInitailArrays {
                 "4. 강의 진행 속도는 적절하였는가?",
                 "(1)전혀 아니다 (2)아니다 (3)그렇다 (4)매우그렇다"
         }; // 질문,보기 배열
+        try {
+            
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
         return polls;
     }
     public int[] sum() {

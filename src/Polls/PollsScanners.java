@@ -5,6 +5,7 @@ public class PollsScanners {
 
     public int[] scanners() {
         int[] end = new int[4]; // 선택 번호 받을 배열 4개 생성
+        try {
         PoollStatistics poollStatistics = new PoollStatistics();
         PoollInitailArrays poollInitailArrays = new PoollInitailArrays();
         poollInitailArrays.arrays();
@@ -23,6 +24,9 @@ public class PollsScanners {
             System.out.print(end[second] + " ");
         }
         in.close();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
         return end;
     }
 }
